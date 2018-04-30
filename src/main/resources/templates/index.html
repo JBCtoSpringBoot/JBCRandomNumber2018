@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Random number</title>
+</head>
+<body>
+
+<p>Guess what number is: </p>
+<form action="/saverandom" method="post">
+
+    <div class="form-group">
+        <label>Guess the number:</label>
+        <input type="number" class="form-control" name="myRandomGuess">
+    </div>
+    <div class="float-right">
+        <button class="btn btn-default">Save</button>
+    </div>
+</form>
+</body>
+</html>
