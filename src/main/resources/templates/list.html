@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<a href="/">Guess Again</a>
+
+<p th:inline="text"> The Random number is: [[${aRandom}]]</p>
+<p th:inline="text"> Result: [[${answer}]]</p>
+</body>
+</html>
