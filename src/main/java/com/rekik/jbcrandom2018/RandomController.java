@@ -13,6 +13,8 @@ public class RandomController {
     int randomNumber;
     Random random = new Random();
 
+    /* int x = 1 + random.nextInt(100); Picks randon number from 1 to 100(inclusive)*/
+
     @RequestMapping("/")
     public String addNewRandom(Model model)
     {
